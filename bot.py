@@ -9,7 +9,7 @@ async def send_message(message,user_message, is_private):
         print(e)
 
 def run_discord_bot():
-    TOKEN = 'MTEwMzUxNzQ1ODQxMDc4MjgwMA.GDVbbe.yOjfuWED6sM88UrDaeZ-Pb-4lNRhzmSndssmm8'
+    TOKEN = ''
     client = discord.Client()
 
     async def on_ready():
