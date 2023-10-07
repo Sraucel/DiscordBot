@@ -64,4 +64,4 @@ def get_songs_by_artist(token, artist_id):
     json_result = json.loads(result.content)["tracks"]
     return json_result
 
-bot.run("MTEwMzUxNzQ1ODQxMDc4MjgwMA.G4d3pa.sUAiG9p3TcAOcRHJhMjDALPw1lkEdvUPvN4qdM")
+bot.run("TOKEN")
